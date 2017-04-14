@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/etSearch"
+                    style="@style/materialEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="@string/restaurant_name"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    app:met_baseColor="@color/white"
+                    app:met_primaryColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tvSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/search"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.jude.easyrecyclerview.EasyRecyclerView
+            android:id="@+id/rlv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:recyclerClipToPadding="true"
+            app:scrollbarStyle="insideOverlay"
+            app:scrollbars="none" />
+
+        <com.jude.easyrecyclerview.EasyRecyclerView
+            android:id="@+id/rlvResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/secondBg"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/no_data_available"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <!--<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+     &lt;!&ndash;   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">&ndash;&gt;
+
+           &lt;!&ndash; <LinearLayout
+                android:id="@+id/layHot"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/secondBg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="16dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@color/colorAdapterItem.menu.text" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Hot search"
+                    android:textSize="18sp" />
+            </LinearLayout>&ndash;&gt;
+
+           &lt;!&ndash; <LinearLayout
+                android:id="@+id/layHistroy"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/secondBg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="16dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@color/colorAdapterItem.menu.text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Search Histroy"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/icDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_delete_24dp" />
+            </LinearLayout>
+
+            <com.jude.easyrecyclerview.EasyRecyclerView
+                android:id="@+id/rlvHistroy"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:paddingTop="7dp" />
+        </LinearLayout>&ndash;&gt;
+    </FrameLayout>-->
+
+</LinearLayout>

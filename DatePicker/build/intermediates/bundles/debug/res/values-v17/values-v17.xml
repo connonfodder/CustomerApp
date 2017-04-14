@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseRecurrenceOptionCreatorEndSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+    <style name="BaseRecurrenceOptionCreatorFreqSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+    </style>
+</resources>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/toolbar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        style="@style/toolbar.TextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/lbEditLocation" />
+
+                    <View
+                        android:layout_width="@dimen/toolbarIconMinWidth"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/btnDelete"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:paddingRight="8dp"
+                    android:src="@drawable/ic_delete_white_24dp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etName"
+            style="@style/materialEditText"
+            android:hint="@string/lbCustomerName"
+            app:met_floatingLabelText="@string/lbCustomerName"
+            app:met_iconLeft="@drawable/ic_user_24dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etPhone"
+            style="@style/materialEditText"
+            android:hint="@string/lbPhoneNumber"
+            android:inputType="phone"
+            app:met_floatingLabelText="@string/lbPhoneNumber"
+            app:met_iconLeft="@drawable/ic_mobile_24dp" />
+
+        <RelativeLayout
+            android:id="@+id/layAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/etAddress"
+                style="@style/materialEditText"
+                android:clickable="false"
+                android:enabled="false"
+                android:hint="@string/lbAddress"
+                app:met_floatingLabelText="Address"
+                app:met_iconLeft="@drawable/ic_location_24dp" />
+
+            <ImageView
+                android:id="@+id/ivLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/location" />
+        </RelativeLayout>
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etAddressLine1"
+            style="@style/materialEditText"
+            android:hint="@string/lbAddressLine1"
+            app:met_floatingLabelText="@string/lbAddressLine1"
+            app:met_iconLeft="@drawable/ic_transparent_24dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etZipCode"
+            style="@style/materialEditText"
+            android:hint="@string/lbZipCode"
+            app:met_floatingLabelText="@string/lbZipCode"
+            app:met_iconLeft="@drawable/ic_transparent_24dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etEmail"
+            style="@style/materialEditText"
+            android:hint="@string/lbEmail"
+            android:inputType="textEmailAddress"
+            app:met_floatingLabelText="@string/lbEmail"
+            app:met_iconLeft="@drawable/ic_email_24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ic_label_24dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_label"
+                    android:textColor="@color/secondartText" />
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home"
+                    android:textColor="@color/secondartText" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/school"
+                    android:textColor="@color/secondartText" />
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/companyM"
+                    android:textColor="@color/secondartText" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#1E88E5"
+        android:text="@string/lbConfirm"
+        app:rippleSpeed="12" />
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/toolbar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/lbUserName"
+                    style="@style/toolbar.TextView" />
+
+                <TextView
+                    android:id="@+id/tvSign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbLogout"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="4dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/layAccount"
+        style="@style/userCategoryLayout">
+
+        <ImageView
+            style="@style/userCategoryLayout.imagePath"
+            android:src="@drawable/ic_account_24dp" />
+
+        <TextView
+            style="@style/userCategoryLayout.textview"
+            android:text="@string/lbAccount" />
+
+        <ImageView
+            android:id="@+id/ivMasterPass"
+            style="@style/userCategoryLayout.imagePath"
+            android:src="@drawable/user_masterpass"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/commonbg" />
+
+    <LinearLayout
+        android:id="@+id/layHelp"
+        style="@style/userCategoryLayout">
+
+        <ImageView
+            style="@style/userCategoryLayout.imagePath"
+            android:src="@drawable/ic_help_24dp" />
+
+        <TextView
+            style="@style/userCategoryLayout.textview"
+            android:text="@string/lbHelp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/commonbg" />
+
+    <LinearLayout
+        android:id="@+id/layRate"
+        style="@style/userCategoryLayout">
+
+        <ImageView
+            style="@style/userCategoryLayout.imagePath"
+            android:src="@drawable/ic_mobile_blue_24dp" />
+
+        <TextView
+            style="@style/userCategoryLayout.textview"
+            android:text="@string/lbRateApp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/commonbg" />
+
+    <LinearLayout
+        android:id="@+id/layContact"
+        style="@style/userCategoryLayout">
+
+        <ImageView
+            style="@style/userCategoryLayout.imagePath"
+            android:src="@drawable/ic_phone_24dp" />
+
+        <TextView
+            style="@style/userCategoryLayout.textview"
+            android:text="@string/lbContactUs" />
+
+        <TextView
+            android:id="@+id/tvMode"
+            style="@style/userCategoryLayout.textview"
+            android:visibility="gone"
+            android:text="Develope Mode Change" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/commonbg" />
+
+</LinearLayout>

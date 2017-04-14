@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Your Information -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/secondBg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="10dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/your_information"
+                    android:textColor="@color/secondartText"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!--Delivery 地址-->
+            <RelativeLayout
+                android:id="@+id/layAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:id="@+id/ivAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="18dp"
+                    android:src="@mipmap/ic_address_people" />
+
+                <TextView
+                    android:id="@+id/tvAddressHint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/choose_address"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/ivAddress"
+                    android:visibility="gone"
+                    android:textColor="@color/secondartText"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tvCustomerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ivAddress"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvCustomerName"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/ivAddress"
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvTel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tvCustomerName"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/tvCustomerName"
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/tvAddress"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/divider" />
+            </RelativeLayout>
+
+            <!--Delivery 时间选择-->
+            <RelativeLayout
+                android:id="@+id/layDeliveryTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp">
+
+                <TextView
+                    android:id="@+id/tvDeliveryTime"
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="18dp"
+                    android:text="@string/delivery_time" />
+
+                <LinearLayout
+                    android:id="@+id/layDeliveryTimeTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvDeliveryTime"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.gc.materialdesign.views.CheckBox
+                        android:id="@+id/cbTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="27dp"
+                        android:background="#1E88E5"
+                        materialdesign:check="true" />
+
+                    <EditText
+                        android:id="@+id/etDeliveryTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:paddingLeft="2dp"
+                        android:text="1:23 pm" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layDeliveryTimeNow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layDeliveryTimeTop"
+                    android:layout_toRightOf="@+id/tvDeliveryTime"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.gc.materialdesign.views.CheckBox
+                        android:id="@+id/cbNow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="27dp"
+                        android:background="#1E88E5"
+                        materialdesign:check="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:textSize="17sp"
+                        android:textColor="@color/primaryText"
+                        android:text="@string/delivery_now" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/layDeliveryTimeNow"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/divider" />
+            </RelativeLayout>
+
+            <!-- Take out 时间选择 -->
+            <RelativeLayout
+                android:id="@+id/layPickUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp">
+
+                <TextView
+                    android:id="@+id/tvPickUp"
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/lb_pick_up_time" />
+
+                <LinearLayout
+                    android:id="@+id/layPickUpIn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvPickUp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.gc.materialdesign.views.CheckBox
+                        android:id="@+id/cbWait"
+                        android:layout_width="wrap_content"
+                        android:layout_height="27dp"
+                        android:background="#1E88E5"
+                        materialdesign:check="false"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:textSize="17sp"
+                        android:textColor="@color/primaryText"
+                        android:text="@string/i_m_waiting_in_restaurant" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layPickUpTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layPickUpIn"
+                    android:layout_toRightOf="@+id/tvPickUp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.gc.materialdesign.views.CheckBox
+                        android:id="@+id/cbPickUpTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="27dp"
+                        android:background="#1E88E5"
+                        materialdesign:check="true"
+                        android:gravity="center"/>
+
+                    <EditText
+                        android:id="@+id/etPickUpTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:paddingLeft="4dp"
+                        android:text="Jan  1st  1:23  pm" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/layPickUpTime"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/divider" />
+            </RelativeLayout>
+
+            <!-- Dine In 餐桌二维码 -->
+            <RelativeLayout
+                android:id="@+id/layTable"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp">
+
+                <TextView
+                    android:id="@+id/tvTableName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/tvTableM"
+                    android:layout_alignBottom="@+id/tvTableM"
+                    android:gravity="center"
+                    android:text="@string/display_qr_code" />
+
+                <TextView
+                    android:id="@+id/tvTableId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/tvTableId"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/divider" />
+
+                <TextView
+                    android:id="@+id/tvTableM"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/table_number"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <!-- Numbers of customers -->
+            <RelativeLayout
+                android:id="@+id/layCustomerNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/etCustomerNum"
+                    style="@style/materialEditText"
+                    android:layout_toRightOf="@+id/tvCustomerNumM"
+                    android:inputType="numberDecimal"
+                    android:digits="0123456789"
+                    app:met_clearButton="false"
+                    app:maxLength="3"
+                    android:text="1"
+                    app:met_floatingLabelText="Numbers of customers" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/etCustomerNum"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/divider" />
+
+                <TextView
+                    android:id="@+id/tvCustomerNumM"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/guest_number"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <!-- order Details 存放各个菜式信息-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/secondBg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="10dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/order_details"
+                    android:textColor="@color/secondartText"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <ImageView
+                    android:id="@+id/ivLogo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="4dp"/>
+
+                <TextView
+                    android:id="@+id/tvCompanyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/ivLogo"
+                    android:layout_toRightOf="@+id/ivLogo"
+                    android:layout_marginLeft="8dp"
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <View
+                    android:id="@+id/divider0"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_below="@id/ivLogo"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:id="@+id/layOrderItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/divider0"
+                    android:orientation="vertical" />
+
+                <View
+                    android:id="@+id/divider1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_below="@+id/layOrderItem"
+                    android:layout_marginLeft="8dp"
+                    android:visibility="invisible"
+                    android:background="@color/divider" />
+
+                <TextView
+                    android:id="@+id/tvDeliveryFeeM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/divider1"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/lbDelivery"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvDeliveryFee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/divider1"
+                    android:layout_marginRight="8dp"
+                    android:text="$5"
+                    android:visibility="gone" />
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_below="@+id/tvDeliveryFee"
+                    android:layout_marginLeft="8dp"
+                    android:visibility="gone"
+                    android:background="@color/divider" />
+
+                <TextView
+                    android:id="@+id/tvTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/divider2"
+                    android:text="$65"
+                    android:textColor="@color/red"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/divider2"
+                    android:layout_marginRight="6dp"
+                    android:layout_toLeftOf="@+id/tvTotal"
+                    android:text="@string/lbTotal"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+            <!-- other requirements-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/secondBg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="10dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/other_requirements"
+                    android:textColor="@color/secondartText"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etRemark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_toolbar_search_white_all_radius"
+                android:gravity="top"
+                android:hint="@string/order_remark_hint"
+                android:minLines="5"
+                android:padding="4dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/secondBg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTotalBottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:text="$365 to pay"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="@string/lbConfirm"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</LinearLayout>

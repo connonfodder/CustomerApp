@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/layHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/toolbar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    style="@style/toolbar.TextView"
+                    android:text="" />
+
+                <ImageView
+                    android:id="@+id/iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="5dp"
+                    android:padding="3dp"
+                    android:src="@mipmap/ic_phone" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/layTab"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_below="@+id/layHeader"
+        app:tl_iconVisible="false"
+        app:tl_indicator_color="@color/colorOrange"
+        app:tl_indicator_corner_radius="1.5dp"
+        app:tl_indicator_height="3dp"
+        app:tl_indicator_width="30dp"
+        app:tl_textSelectColor="@color/colorAccent"
+        app:tl_textUnselectColor="@color/black"
+        app:tl_textsize="16sp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pagers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layTab" />
+
+</RelativeLayout>

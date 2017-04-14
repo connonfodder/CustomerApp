@@ -1,0 +1,1103 @@
+[
+    {
+        "outputFile": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 7,
+                    "endColumn": 19,
+                    "endOffset": 320
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\arrays.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 688,
+                        "endLine": 21,
+                        "endColumn": 19,
+                        "endOffset": 903
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 325,
+                    "endLine": 14,
+                    "endColumn": 19,
+                    "endOffset": 630
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\arrays.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2451,
+                        "endLine": 63,
+                        "endColumn": 19,
+                        "endOffset": 2756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 635,
+                    "endLine": 21,
+                    "endColumn": 19,
+                    "endOffset": 930
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\arrays.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1228,
+                        "endLine": 35,
+                        "endColumn": 19,
+                        "endOffset": 1523
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 935,
+                    "endLine": 28,
+                    "endColumn": 19,
+                    "endOffset": 1245
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\arrays.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2761,
+                        "endLine": 70,
+                        "endColumn": 19,
+                        "endOffset": 3071
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1250,
+                    "endLine": 35,
+                    "endColumn": 19,
+                    "endOffset": 1565
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\arrays.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 908,
+                        "endLine": 28,
+                        "endColumn": 19,
+                        "endOffset": 1223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1570,
+                    "endLine": 42,
+                    "endColumn": 19,
+                    "endOffset": 1862
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\arrays.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2154,
+                        "endLine": 56,
+                        "endColumn": 19,
+                        "endOffset": 2446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 1867,
+                    "endLine": 49,
+                    "endColumn": 19,
+                    "endOffset": 2168
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\arrays.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1528,
+                        "endLine": 42,
+                        "endColumn": 19,
+                        "endOffset": 1829
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2173,
+                    "endLine": 56,
+                    "endColumn": 19,
+                    "endOffset": 2488
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\arrays.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1834,
+                        "endLine": 49,
+                        "endColumn": 19,
+                        "endOffset": 2149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2493,
+                    "endLine": 60,
+                    "endColumn": 14,
+                    "endOffset": 2660
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1641,
+                        "endLine": 37,
+                        "endColumn": 14,
+                        "endOffset": 1812
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 2665,
+                    "endLine": 64,
+                    "endColumn": 14,
+                    "endOffset": 2833
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1464,
+                        "endLine": 33,
+                        "endColumn": 14,
+                        "endOffset": 1636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 2838,
+                    "endLine": 68,
+                    "endColumn": 14,
+                    "endOffset": 3073
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3613,
+                        "endLine": 69,
+                        "endColumn": 14,
+                        "endOffset": 3856
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 3078,
+                    "endLine": 72,
+                    "endColumn": 14,
+                    "endOffset": 3299
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2266,
+                        "endLine": 48,
+                        "endColumn": 14,
+                        "endOffset": 2495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 3304,
+                    "endLine": 76,
+                    "endColumn": 14,
+                    "endOffset": 3529
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2747,
+                        "endLine": 56,
+                        "endColumn": 14,
+                        "endOffset": 2980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 3534,
+                    "endLine": 80,
+                    "endColumn": 14,
+                    "endOffset": 3768
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2500,
+                        "endLine": 52,
+                        "endColumn": 14,
+                        "endOffset": 2742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 3773,
+                    "endLine": 84,
+                    "endColumn": 14,
+                    "endOffset": 3994
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2985,
+                        "endLine": 60,
+                        "endColumn": 14,
+                        "endOffset": 3214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 3999,
+                    "endLine": 88,
+                    "endColumn": 14,
+                    "endOffset": 4253
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1902,
+                        "endLine": 42,
+                        "endColumn": 14,
+                        "endOffset": 2168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 4258,
+                    "endColumn": 120,
+                    "endOffset": 4374
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 120,
+                        "endOffset": 171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 4379,
+                    "endColumn": 107,
+                    "endOffset": 4482
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 176,
+                        "endColumn": 107,
+                        "endOffset": 279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 4487,
+                    "endColumn": 122,
+                    "endOffset": 4605
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 284,
+                        "endColumn": 122,
+                        "endOffset": 402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 4610,
+                    "endColumn": 103,
+                    "endOffset": 4709
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 407,
+                        "endColumn": 103,
+                        "endOffset": 506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 4714,
+                    "endColumn": 112,
+                    "endOffset": 4822
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 511,
+                        "endColumn": 112,
+                        "endOffset": 619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 4827,
+                    "endColumn": 87,
+                    "endOffset": 4910
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 624,
+                        "endColumn": 87,
+                        "endOffset": 707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 4915,
+                    "endColumn": 111,
+                    "endOffset": 5022
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 712,
+                        "endColumn": 111,
+                        "endOffset": 819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 5027,
+                    "endColumn": 120,
+                    "endOffset": 5143
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 824,
+                        "endColumn": 120,
+                        "endOffset": 940
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 5148,
+                    "endColumn": 84,
+                    "endOffset": 5228
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 945,
+                        "endColumn": 84,
+                        "endOffset": 1025
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 5233,
+                    "endColumn": 81,
+                    "endOffset": 5310
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1030,
+                        "endColumn": 81,
+                        "endOffset": 1107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 5315,
+                    "endColumn": 82,
+                    "endOffset": 5393
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1112,
+                        "endColumn": 82,
+                        "endOffset": 1190
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 5398,
+                    "endColumn": 111,
+                    "endOffset": 5505
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1195,
+                        "endColumn": 111,
+                        "endOffset": 1302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 5510,
+                    "endColumn": 112,
+                    "endOffset": 5618
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1307,
+                        "endColumn": 112,
+                        "endOffset": 1415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 5623,
+                    "endColumn": 99,
+                    "endOffset": 5718
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1420,
+                        "endColumn": 99,
+                        "endOffset": 1515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 5723,
+                    "endColumn": 113,
+                    "endOffset": 5832
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1520,
+                        "endColumn": 113,
+                        "endOffset": 1629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 5837,
+                    "endColumn": 104,
+                    "endOffset": 5937
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1634,
+                        "endColumn": 104,
+                        "endOffset": 1734
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 5942,
+                    "endColumn": 105,
+                    "endOffset": 6043
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1739,
+                        "endColumn": 105,
+                        "endOffset": 1840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 6048,
+                    "endColumn": 120,
+                    "endOffset": 6164
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1845,
+                        "endColumn": 120,
+                        "endOffset": 1961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 6169,
+                    "endColumn": 102,
+                    "endOffset": 6267
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1966,
+                        "endColumn": 102,
+                        "endOffset": 2064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 6272,
+                    "endColumn": 109,
+                    "endOffset": 6377
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3861,
+                        "endColumn": 109,
+                        "endOffset": 3966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 6382,
+                    "endColumn": 44,
+                    "endOffset": 6422
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1336,
+                        "endColumn": 44,
+                        "endOffset": 1376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 6427,
+                    "endColumn": 68,
+                    "endOffset": 6491
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 864,
+                        "endColumn": 68,
+                        "endOffset": 928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 6496,
+                    "endColumn": 83,
+                    "endOffset": 6575
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1211,
+                        "endColumn": 87,
+                        "endOffset": 1294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 6580,
+                    "endColumn": 77,
+                    "endOffset": 6653
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1382,
+                        "endColumn": 81,
+                        "endOffset": 1459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 6658,
+                    "endColumn": 84,
+                    "endOffset": 6738
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1817,
+                        "endColumn": 84,
+                        "endOffset": 1897
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 6743,
+                    "endColumn": 85,
+                    "endOffset": 6824
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1121,
+                        "endColumn": 89,
+                        "endOffset": 1206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 6829,
+                    "endColumn": 43,
+                    "endOffset": 6868
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2173,
+                        "endColumn": 43,
+                        "endOffset": 2212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 6873,
+                    "endColumn": 35,
+                    "endOffset": 6904
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1300,
+                        "endColumn": 35,
+                        "endOffset": 1331
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 6909,
+                    "endColumn": 68,
+                    "endOffset": 6973
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3301,
+                        "endColumn": 68,
+                        "endOffset": 3365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 6978,
+                    "endColumn": 73,
+                    "endOffset": 7047
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3539,
+                        "endColumn": 73,
+                        "endOffset": 3608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 7052,
+                    "endColumn": 85,
+                    "endOffset": 7133
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3449,
+                        "endColumn": 89,
+                        "endOffset": 3534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 7138,
+                    "endColumn": 78,
+                    "endOffset": 7212
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3370,
+                        "endColumn": 78,
+                        "endOffset": 3444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 7217,
+                    "endColumn": 81,
+                    "endOffset": 7294
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 3219,
+                        "endColumn": 81,
+                        "endOffset": 3296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 7299,
+                    "endColumn": 63,
+                    "endOffset": 7358
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1000,
+                        "endColumn": 63,
+                        "endOffset": 1059
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 7363,
+                    "endColumn": 58,
+                    "endOffset": 7417
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 741,
+                        "endColumn": 58,
+                        "endOffset": 795
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 7422,
+                    "endColumn": 63,
+                    "endOffset": 7481
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 800,
+                        "endColumn": 63,
+                        "endOffset": 859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 7486,
+                    "endColumn": 56,
+                    "endOffset": 7538
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1064,
+                        "endColumn": 56,
+                        "endOffset": 1116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 7543,
+                    "endColumn": 100,
+                    "endOffset": 7639
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-ro\\values-ro.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2069,
+                        "endColumn": 100,
+                        "endOffset": 2165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 7644,
+                    "endColumn": 66,
+                    "endOffset": 7706
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 933,
+                        "endColumn": 66,
+                        "endOffset": 995
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 7711,
+                    "endColumn": 48,
+                    "endOffset": 7755
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ro\\strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2217,
+                        "endColumn": 48,
+                        "endOffset": 2261
+                    }
+                }
+            }
+        ]
+    }
+]

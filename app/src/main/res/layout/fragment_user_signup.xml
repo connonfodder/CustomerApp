@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/toolbar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/toolbar.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:text="@string/lbSignup"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="4dp"
+                    android:text="@string/lbLoginIn"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etEmail"
+            style="@style/materialEditText"
+            android:hint="@string/lbEmail"
+            android:inputType="textEmailAddress"
+            app:met_floatingLabelText="@string/lbEmail"
+            app:met_iconLeft="@drawable/ic_email_24dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etUserName"
+            style="@style/materialEditText"
+            android:hint="@string/lbUserName"
+            app:met_floatingLabelText="@string/lbUserName"
+            app:met_iconLeft="@drawable/ic_user_24dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etPhone"
+            style="@style/materialEditText"
+            android:hint="@string/lbPhoneNumber"
+            android:inputType="phone"
+            app:met_floatingLabelText="@string/lbPhoneNumber"
+            app:met_iconLeft="@drawable/ic_mobile_24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/signup_email_hint"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etPwd1"
+            style="@style/materialEditText"
+            android:hint="@string/lbPassword"
+            android:inputType="textPassword"
+            app:met_errorColor="@color/red"
+            app:met_floatingLabelText="@string/lbPassword"
+            app:met_helperText="please fill with this"
+            app:met_iconLeft="@drawable/ic_password_24dp"
+            app:met_maxCharacters="16"
+            app:met_minCharacters="6" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etPwd2"
+            style="@style/materialEditText"
+            android:hint="@string/lbConfirmPassword"
+            android:inputType="textPassword"
+            app:met_errorColor="@color/red"
+            app:met_floatingLabelText="@string/lbConfirmPassword"
+            app:met_iconLeft="@drawable/ic_password_24dp"
+            app:met_maxCharacters="16"
+            app:met_minCharacters="6" />
+    </LinearLayout>
+
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#1E88E5"
+        app:rippleSpeed="12"
+        android:text="@string/lbSignup" />
+</LinearLayout>

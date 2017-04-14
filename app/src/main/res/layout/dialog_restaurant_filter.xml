@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurant_type" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/btnDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/delivery" />
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/btnDineIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/dine_in" />
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/btnTakeOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/take_out" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvFoodStyleM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/food_type" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/btnReset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="@string/lbReset" />
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/btnConfirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/lbConfirm" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomerLibrary</string>
+    <string name="net_error">please try again later</string>
+    <string name="empty">no data</string>
+    <string name="loading">loading...</string>
+    <string name="reload">reload</string>
+    <string name="no_net">network service is not available</string>
+</resources>

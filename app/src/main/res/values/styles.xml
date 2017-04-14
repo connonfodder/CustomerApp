@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="typeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="restaurantListType" parent="typeStyle">
+        <item name="android:background">@drawable/bg_type_blue_all_radius</item>
+    </style>
+
+    <style name="orderListTagType" parent="typeStyle">
+        <item name="android:background">@drawable/bg_tag_orange_all_radius</item>
+    </style>
+
+    <style name="userCategoryLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_layout_user_category</item>
+    </style>
+
+    <style name="userCategoryLayout.imagePath">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="userCategoryLayout.textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="settingCategoryLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_layout_user_category</item>
+    </style>
+
+    <style name="settingCategoryLayout.textview">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="settingCategoryLayout.imagePath">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:src">@drawable/next</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="materialEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="met_clearButton">true</item>
+        <item name="met_floatingLabel">highlight</item>
+        <item name="met_floatingLabelTextSize">12sp</item>
+        <item name="android:fontFamily">DroidSans</item>
+    </style>
+
+    <style name="toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:weightSum">1</item>
+        <item name="popupTheme">@style/AppTheme.PopupOverlay</item>
+    </style>
+
+    <style name="toolbar.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="tabLayoutCommon" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMaxWidth">0dp</item>
+    </style>
+
+</resources>

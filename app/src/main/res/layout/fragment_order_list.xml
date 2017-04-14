@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/toolbar" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/lbOrders"
+                style="@style/toolbar.TextView"
+                android:gravity="center" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.jude.easyrecyclerview.EasyRecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_empty="@layout/view_empty"
+            android:background="@color/commonbg"
+            app:recyclerClipToPadding="true"
+            app:recyclerPadding="8dp"
+            app:recyclerPaddingBottom="8dp"
+            app:recyclerPaddingLeft="8dp"
+            app:recyclerPaddingRight="8dp"
+            app:scrollbarStyle="insideOverlay"
+            app:scrollbars="none" />
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,533 @@
+[
+    {
+        "outputFile": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar-rXB\\values-ar-rXB.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 7,
+                    "endColumn": 19,
+                    "endOffset": 342
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\arrays.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 688,
+                        "endLine": 21,
+                        "endColumn": 19,
+                        "endOffset": 925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 347,
+                    "endLine": 14,
+                    "endColumn": 19,
+                    "endOffset": 712
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\arrays.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2813,
+                        "endLine": 63,
+                        "endColumn": 19,
+                        "endOffset": 3178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 717,
+                    "endLine": 21,
+                    "endColumn": 19,
+                    "endOffset": 1082
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\arrays.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1300,
+                        "endLine": 35,
+                        "endColumn": 19,
+                        "endOffset": 1665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1087,
+                    "endLine": 28,
+                    "endColumn": 19,
+                    "endOffset": 1462
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\arrays.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3183,
+                        "endLine": 70,
+                        "endColumn": 19,
+                        "endOffset": 3558
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1467,
+                    "endLine": 35,
+                    "endColumn": 19,
+                    "endOffset": 1832
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\arrays.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 930,
+                        "endLine": 28,
+                        "endColumn": 19,
+                        "endOffset": 1295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1837,
+                    "endLine": 42,
+                    "endColumn": 19,
+                    "endOffset": 2214
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\arrays.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2431,
+                        "endLine": 56,
+                        "endColumn": 19,
+                        "endOffset": 2808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2219,
+                    "endLine": 49,
+                    "endColumn": 19,
+                    "endOffset": 2590
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\arrays.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1670,
+                        "endLine": 42,
+                        "endColumn": 19,
+                        "endOffset": 2041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2595,
+                    "endLine": 56,
+                    "endColumn": 19,
+                    "endOffset": 2975
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\arrays.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2046,
+                        "endLine": 49,
+                        "endColumn": 19,
+                        "endOffset": 2426
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2980,
+                    "endLine": 60,
+                    "endColumn": 14,
+                    "endOffset": 3154
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1095,
+                        "endLine": 28,
+                        "endColumn": 14,
+                        "endOffset": 1273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 3159,
+                    "endLine": 64,
+                    "endColumn": 14,
+                    "endOffset": 3356
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 889,
+                        "endLine": 24,
+                        "endColumn": 14,
+                        "endOffset": 1090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 3361,
+                    "endLine": 68,
+                    "endColumn": 14,
+                    "endOffset": 3598
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 3191,
+                        "endLine": 60,
+                        "endColumn": 14,
+                        "endOffset": 3436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 3603,
+                    "endLine": 72,
+                    "endColumn": 14,
+                    "endOffset": 3833
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1752,
+                        "endLine": 39,
+                        "endColumn": 14,
+                        "endOffset": 1990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 3838,
+                    "endLine": 76,
+                    "endColumn": 14,
+                    "endOffset": 4074
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2241,
+                        "endLine": 47,
+                        "endColumn": 14,
+                        "endOffset": 2485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 4079,
+                    "endLine": 80,
+                    "endColumn": 14,
+                    "endOffset": 4312
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1995,
+                        "endLine": 43,
+                        "endColumn": 14,
+                        "endOffset": 2236
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 4317,
+                    "endLine": 84,
+                    "endColumn": 14,
+                    "endOffset": 4550
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2490,
+                        "endLine": 51,
+                        "endColumn": 14,
+                        "endOffset": 2731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 4555,
+                    "endLine": 88,
+                    "endColumn": 14,
+                    "endOffset": 4824
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1362,
+                        "endLine": 33,
+                        "endColumn": 14,
+                        "endOffset": 1643
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 4829,
+                    "endColumn": 109,
+                    "endOffset": 4934
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 3441,
+                        "endColumn": 109,
+                        "endOffset": 3546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 4939,
+                    "endColumn": 79,
+                    "endOffset": 5014
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 805,
+                        "endColumn": 83,
+                        "endOffset": 884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 5019,
+                    "endColumn": 83,
+                    "endOffset": 5098
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1278,
+                        "endColumn": 83,
+                        "endOffset": 1357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 5103,
+                    "endColumn": 49,
+                    "endOffset": 5148
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1648,
+                        "endColumn": 49,
+                        "endOffset": 1693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 5153,
+                    "endColumn": 68,
+                    "endOffset": 5217
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2849,
+                        "endColumn": 68,
+                        "endOffset": 2913
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 5222,
+                    "endColumn": 99,
+                    "endOffset": 5317
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 3091,
+                        "endColumn": 99,
+                        "endOffset": 3186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 5322,
+                    "endColumn": 87,
+                    "endOffset": 5405
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2999,
+                        "endColumn": 91,
+                        "endOffset": 3086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 5410,
+                    "endColumn": 80,
+                    "endOffset": 5486
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2918,
+                        "endColumn": 80,
+                        "endOffset": 2994
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 5491,
+                    "endColumn": 112,
+                    "endOffset": 5599
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2736,
+                        "endColumn": 112,
+                        "endOffset": 2844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 5604,
+                    "endColumn": 53,
+                    "endOffset": 5653
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-ar-rXB\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1698,
+                        "endColumn": 53,
+                        "endOffset": 1747
+                    }
+                }
+            }
+        ]
+    }
+]

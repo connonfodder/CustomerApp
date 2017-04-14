@@ -1,0 +1,1103 @@
+[
+    {
+        "outputFile": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 7,
+                    "endColumn": 19,
+                    "endOffset": 274
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\arrays.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 688,
+                        "endLine": 21,
+                        "endColumn": 19,
+                        "endOffset": 857
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 279,
+                    "endLine": 14,
+                    "endColumn": 19,
+                    "endOffset": 494
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\arrays.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 1965,
+                        "endLine": 63,
+                        "endColumn": 19,
+                        "endOffset": 2180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 499,
+                    "endLine": 21,
+                    "endColumn": 19,
+                    "endOffset": 714
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\arrays.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1082,
+                        "endLine": 35,
+                        "endColumn": 19,
+                        "endOffset": 1297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 719,
+                    "endLine": 28,
+                    "endColumn": 19,
+                    "endOffset": 934
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\arrays.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2185,
+                        "endLine": 70,
+                        "endColumn": 19,
+                        "endOffset": 2400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 939,
+                    "endLine": 35,
+                    "endColumn": 19,
+                    "endOffset": 1154
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\arrays.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 862,
+                        "endLine": 28,
+                        "endColumn": 19,
+                        "endOffset": 1077
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1159,
+                    "endLine": 42,
+                    "endColumn": 19,
+                    "endOffset": 1376
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\arrays.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 1743,
+                        "endLine": 56,
+                        "endColumn": 19,
+                        "endOffset": 1960
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 1381,
+                    "endLine": 49,
+                    "endColumn": 19,
+                    "endOffset": 1597
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\arrays.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1302,
+                        "endLine": 42,
+                        "endColumn": 19,
+                        "endOffset": 1518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 1602,
+                    "endLine": 56,
+                    "endColumn": 19,
+                    "endOffset": 1817
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\arrays.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1523,
+                        "endLine": 49,
+                        "endColumn": 19,
+                        "endOffset": 1738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 1822,
+                    "endLine": 60,
+                    "endColumn": 14,
+                    "endOffset": 1974
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1546,
+                        "endLine": 37,
+                        "endColumn": 14,
+                        "endOffset": 1702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 1979,
+                    "endLine": 64,
+                    "endColumn": 14,
+                    "endOffset": 2137
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1379,
+                        "endLine": 33,
+                        "endColumn": 14,
+                        "endOffset": 1541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 2142,
+                    "endLine": 68,
+                    "endColumn": 14,
+                    "endOffset": 2356
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3311,
+                        "endLine": 69,
+                        "endColumn": 14,
+                        "endOffset": 3533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 2361,
+                    "endLine": 72,
+                    "endColumn": 14,
+                    "endOffset": 2562
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2103,
+                        "endLine": 48,
+                        "endColumn": 14,
+                        "endOffset": 2312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 2567,
+                    "endLine": 76,
+                    "endColumn": 14,
+                    "endOffset": 2772
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2532,
+                        "endLine": 56,
+                        "endColumn": 14,
+                        "endOffset": 2745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 2777,
+                    "endLine": 80,
+                    "endColumn": 14,
+                    "endOffset": 2979
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2317,
+                        "endLine": 52,
+                        "endColumn": 14,
+                        "endOffset": 2527
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 2984,
+                    "endLine": 84,
+                    "endColumn": 14,
+                    "endOffset": 3186
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2750,
+                        "endLine": 60,
+                        "endColumn": 14,
+                        "endOffset": 2960
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 3191,
+                    "endLine": 88,
+                    "endColumn": 14,
+                    "endOffset": 3428
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1762,
+                        "endLine": 42,
+                        "endColumn": 14,
+                        "endOffset": 2011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 3433,
+                    "endColumn": 94,
+                    "endOffset": 3523
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 94,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 3528,
+                    "endColumn": 106,
+                    "endOffset": 3630
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 150,
+                        "endColumn": 106,
+                        "endOffset": 252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3635,
+                    "endColumn": 122,
+                    "endOffset": 3753
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 257,
+                        "endColumn": 122,
+                        "endOffset": 375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 3758,
+                    "endColumn": 92,
+                    "endOffset": 3846
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 380,
+                        "endColumn": 92,
+                        "endOffset": 468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 3851,
+                    "endColumn": 99,
+                    "endOffset": 3946
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 473,
+                        "endColumn": 99,
+                        "endOffset": 568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 3951,
+                    "endColumn": 81,
+                    "endOffset": 4028
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 573,
+                        "endColumn": 81,
+                        "endOffset": 650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 4033,
+                    "endColumn": 96,
+                    "endOffset": 4125
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 655,
+                        "endColumn": 96,
+                        "endOffset": 747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 4130,
+                    "endColumn": 107,
+                    "endOffset": 4233
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 752,
+                        "endColumn": 107,
+                        "endOffset": 855
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 4238,
+                    "endColumn": 75,
+                    "endOffset": 4309
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 860,
+                        "endColumn": 75,
+                        "endOffset": 931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 4314,
+                    "endColumn": 75,
+                    "endOffset": 4385
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 936,
+                        "endColumn": 75,
+                        "endOffset": 1007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 4390,
+                    "endColumn": 77,
+                    "endOffset": 4463
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1012,
+                        "endColumn": 77,
+                        "endOffset": 1085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4468,
+                    "endColumn": 95,
+                    "endOffset": 4559
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1090,
+                        "endColumn": 95,
+                        "endOffset": 1181
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4564,
+                    "endColumn": 95,
+                    "endOffset": 4655
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1186,
+                        "endColumn": 95,
+                        "endOffset": 1277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4660,
+                    "endColumn": 94,
+                    "endOffset": 4750
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1282,
+                        "endColumn": 94,
+                        "endOffset": 1372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4755,
+                    "endColumn": 96,
+                    "endOffset": 4847
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1377,
+                        "endColumn": 96,
+                        "endOffset": 1469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4852,
+                    "endColumn": 94,
+                    "endOffset": 4942
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1474,
+                        "endColumn": 94,
+                        "endOffset": 1564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4947,
+                    "endColumn": 99,
+                    "endOffset": 5042
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1569,
+                        "endColumn": 99,
+                        "endOffset": 1664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 5047,
+                    "endColumn": 112,
+                    "endOffset": 5155
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1669,
+                        "endColumn": 112,
+                        "endOffset": 1777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 5160,
+                    "endColumn": 93,
+                    "endOffset": 5249
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1782,
+                        "endColumn": 93,
+                        "endOffset": 1871
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 5254,
+                    "endColumn": 88,
+                    "endOffset": 5338
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3538,
+                        "endColumn": 88,
+                        "endOffset": 3622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 5343,
+                    "endColumn": 39,
+                    "endOffset": 5378
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1262,
+                        "endColumn": 39,
+                        "endOffset": 1297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 5383,
+                    "endColumn": 64,
+                    "endOffset": 5443
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 841,
+                        "endColumn": 64,
+                        "endOffset": 901
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 5448,
+                    "endColumn": 74,
+                    "endOffset": 5518
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1146,
+                        "endColumn": 78,
+                        "endOffset": 1220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 5523,
+                    "endColumn": 71,
+                    "endOffset": 5590
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1303,
+                        "endColumn": 75,
+                        "endOffset": 1374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 5595,
+                    "endColumn": 54,
+                    "endOffset": 5645
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1707,
+                        "endColumn": 54,
+                        "endOffset": 1757
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 5650,
+                    "endColumn": 80,
+                    "endOffset": 5726
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1061,
+                        "endColumn": 84,
+                        "endOffset": 1141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 5731,
+                    "endColumn": 40,
+                    "endOffset": 5767
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2016,
+                        "endColumn": 40,
+                        "endOffset": 2052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 5772,
+                    "endColumn": 35,
+                    "endOffset": 5803
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1226,
+                        "endColumn": 35,
+                        "endOffset": 1257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 5808,
+                    "endColumn": 60,
+                    "endOffset": 5864
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3034,
+                        "endColumn": 60,
+                        "endOffset": 3090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 5869,
+                    "endColumn": 63,
+                    "endOffset": 5928
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3247,
+                        "endColumn": 63,
+                        "endOffset": 3306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 5933,
+                    "endColumn": 82,
+                    "endOffset": 6011
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3160,
+                        "endColumn": 86,
+                        "endOffset": 3242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 6016,
+                    "endColumn": 64,
+                    "endOffset": 6076
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3095,
+                        "endColumn": 64,
+                        "endOffset": 3155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 6081,
+                    "endColumn": 68,
+                    "endOffset": 6145
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2965,
+                        "endColumn": 68,
+                        "endOffset": 3029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 6150,
+                    "endColumn": 48,
+                    "endOffset": 6194
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 965,
+                        "endColumn": 48,
+                        "endOffset": 1009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 6199,
+                    "endColumn": 48,
+                    "endOffset": 6243
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 741,
+                        "endColumn": 48,
+                        "endOffset": 785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 6248,
+                    "endColumn": 50,
+                    "endOffset": 6294
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 790,
+                        "endColumn": 50,
+                        "endOffset": 836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 6299,
+                    "endColumn": 46,
+                    "endOffset": 6341
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1014,
+                        "endColumn": 46,
+                        "endOffset": 1056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 6346,
+                    "endColumn": 100,
+                    "endOffset": 6442
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1876,
+                        "endColumn": 100,
+                        "endOffset": 1972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 6447,
+                    "endColumn": 58,
+                    "endOffset": 6501
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 906,
+                        "endColumn": 58,
+                        "endOffset": 960
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 6506,
+                    "endColumn": 45,
+                    "endOffset": 6547
+                },
+                "from": {
+                    "file": "E:\\workspace\\CustomerApp\\DatePicker\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2057,
+                        "endColumn": 45,
+                        "endOffset": 2098
+                    }
+                }
+            }
+        ]
+    }
+]

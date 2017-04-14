@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="font_family_button_material">sans-serif-medium</string>
+    <style name="SButtonBarButtonStyle" parent="SButtonBarButtonStyleBase">
+        <item name="android:stateListAnimator">@anim/disabled_anim_material</item>
+    </style>
+    <style name="TextAppearance.EditEvent_SpinnerBase" parent="android:Widget.Material.Light.Spinner"/>
+</resources>

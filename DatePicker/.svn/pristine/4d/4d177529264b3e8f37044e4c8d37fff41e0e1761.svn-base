@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SublimeDatePicker -->
+    <dimen name="datepicker_year_label_height">128dp</dimen>
+    <dimen name="datepicker_year_picker_padding_top">16dp</dimen>
+    <dimen name="datepicker_view_animator_height">452dp</dimen>
+    <dimen name="datepicker_component_width">520dp</dimen>
+    <dimen name="datepicker_header_height">60dp</dimen>
+    <dimen name="text_size_body_1">20sp</dimen>
+    <dimen name="datepicker_header_text_size">20dp</dimen>
+    <dimen name="datepicker_selected_date_month_size">48dp</dimen>
+    <dimen name="datepicker_selected_date_day_size">176dp</dimen>
+    <dimen name="datepicker_selected_date_year_size">48dp</dimen>
+    <dimen name="datepicker_year_label_text_size">28dp</dimen>
+    <dimen name="datepicker_day_number_size">18sp</dimen>
+    <dimen name="datepicker_month_label_size">20sp</dimen>
+    <dimen name="datepicker_month_day_label_text_size">18sp</dimen>
+    <dimen name="datepicker_month_list_item_header_height">96dp</dimen>
+    <dimen name="datepicker_day_number_select_circle_radius">27dp</dimen>
+
+    <!-- Dialog button bar height -->
+    <dimen name="dialog_button_bar_height">96dip</dimen>
+    <dimen name="button_inset_horizontal_material">8dp</dimen>
+    <dimen name="button_inset_vertical_material">12dp</dimen>
+    <dimen name="button_padding_horizontal_material">16dp</dimen>
+    <dimen name="button_padding_vertical_material">8dp</dimen>
+    <dimen name="control_corner_material">4dp</dimen>
+    <dimen name="text_size_button_material">20sp</dimen>
+
+    <!-- SublimeTimePicker -->
+    <item name="timepicker_transition_mid_radius_multiplier" format="float" type="string">0.95
+</item>
+    <item name="timepicker_transition_end_radius_multiplier" format="float" type="string">1.3</item>
+    <item name="timepicker_selection_radius_multiplier" format="float" type="string">0.16</item>
+    <item name="timepicker_circle_radius_multiplier_24HourMode" format="float" type="string">0.85
+</item>
+    <item name="timepicker_numbers_radius_multiplier_outer" format="float" type="string">0.83</item>
+    <item name="timepicker_text_size_multiplier_outer" format="float" type="string">0.11</item>
+    <item name="timepicker_numbers_radius_multiplier_inner" format="float" type="string">0.60</item>
+    <item name="timepicker_text_size_multiplier_inner" format="float" type="string">0.14</item>
+    <item name="timepicker_circle_radius_multiplier" format="float" type="string">0.82</item>
+    <item name="timepicker_numbers_radius_multiplier_normal" format="float" type="string">0.81
+</item>
+    <item name="timepicker_text_size_multiplier_normal" format="float" type="string">0.17</item>
+
+    <dimen name="timepicker_pm_top_padding">6dp</dimen>
+    <dimen name="timepicker_ampm_horizontal_padding">24dp</dimen>
+    <dimen name="timepicker_ampm_vertical_padding">32dp</dimen>
+    <dimen name="timepicker_separator_padding">8dp</dimen>
+    <dimen name="timepicker_header_height">184dp</dimen>
+    <dimen name="timepicker_radial_picker_dimen">540dp</dimen>
+    <dimen name="timepicker_left_side_width">500dip</dimen>
+    <dimen name="timepicker_ampm_label_size">22sp</dimen>
+    <dimen name="timepicker_time_label_size">66sp</dimen>
+    <dimen name="options_size">60dp</dimen>
+    <dimen name="close_drawable_size">64dp</dimen>
+
+    <!-- SublimeRecurrencePicker -->
+    <dimen name="recurrence_picker_width">600dp</dimen>
+    <!-- <dimen name="recurrence_picker_height">340dp</dimen> -->
+    <dimen name="recurrence_picker_height">440dp</dimen>
+    <dimen name="selected_recurrence_option_drawable_padding">48dp</dimen>
+    <dimen name="repeat_options_menu_top_margin">20dp</dimen>
+
+    <!-- WeekButton -->
+    <dimen name="week_button_size">120dp</dimen>
+    <dimen name="week_button_state_on_circle_size">96dp</dimen>
+
+    <!-- fake shadow (not used at the moment) -->
+    <!--
+         Inset shadow for FakeShadowDrawable. It is used to avoid gaps between the card
+         and the shadow.
+
+
+ 
+    -->
+    <dimen name="fake_shadow_inset">2dp</dimen>
+    <dimen name="fake_shadow_size">16dp</dimen>
+
+    <!-- Button Panel -->
+    <dimen name="button_bar_padding_start">24dp</dimen>
+    <dimen name="button_bar_padding_end">24dp</dimen>
+    <dimen name="button_bar_padding_top">16dp</dimen>
+    <dimen name="button_bar_padding_bottom">16dp</dimen>
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    style="@style/toolbar.TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/edit_contact_information" />
+
+                <View
+                    android:layout_width="@dimen/toolbarIconMinWidth"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etName"
+            style="@style/materialEditText"
+            android:hint="@string/lbUserName"
+            app:met_floatingLabelText="@string/lbCustomerName"
+            app:met_iconLeft="@drawable/ic_user_24dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etPhone"
+            style="@style/materialEditText"
+            android:hint="@string/lbPhoneNumber"
+            android:inputType="phone"
+            app:met_floatingLabelText="@string/lbPhoneNumber"
+            app:met_iconLeft="@drawable/ic_mobile_24dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etAddress1"
+            style="@style/materialEditText"
+            android:hint="@string/address_line_1"
+            app:met_floatingLabelText="Address line 1"
+            app:met_iconLeft="@drawable/ic_location_24dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etAddress2"
+            style="@style/materialEditText"
+            android:hint="@string/address_line_2"
+            app:met_floatingLabelText="Address line 2"
+            app:met_iconLeft="@drawable/ic_transparent_24dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etAddress3"
+            style="@style/materialEditText"
+            android:hint="@string/address_line_3"
+            app:met_floatingLabelText="Address line 4"
+            app:met_iconLeft="@drawable/ic_transparent_24dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/etEmail"
+            style="@style/materialEditText"
+            android:editable="false"
+            android:enabled="false"
+            android:hint="@string/lbEmail"
+            android:inputType="textEmailAddress"
+            app:met_floatingLabelText="@string/lbEmail"
+            app:met_iconLeft="@drawable/ic_email_24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="@string/email_function_hint"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#1E88E5"
+        android:text="@string/lbConfirm"
+        app:rippleSpeed="12" />
+
+</LinearLayout>

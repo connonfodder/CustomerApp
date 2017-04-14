@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <!-- 圆角 -->
+            <corners android:radius="5dp" /><!-- 设置圆角半径 -->
+            <!-- 描边 -->
+            <stroke android:width="1dp" android:color="@color/fiter.selected" />
+            <padding android:bottom="5dp" android:left="15dp" android:right="15dp" android:top="5dp" />
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <!-- 圆角 -->
+            <corners android:radius="5dp" /><!-- 设置圆角半径 -->
+            <!-- 描边 -->
+            <stroke android:width="1dp" android:color="@color/fiter.selected" />
+            <padding android:bottom="5dp" android:left="15dp" android:right="15dp" android:top="5dp" />
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <!-- 圆角 -->
+            <corners android:radius="5dp" /><!-- 设置圆角半径 -->
+            <!-- 描边 -->
+            <stroke android:width="1dp" android:color="@color/fiter.normal" />
+            <padding android:bottom="5dp" android:left="15dp" android:right="15dp" android:top="5dp" />
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+</selector>
